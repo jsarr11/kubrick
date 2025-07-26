@@ -169,6 +169,7 @@ class _MenuPageState extends State<MenuPage> {
 
   Widget _buildProductsList(category, String lang) {
     return ListView.builder(
+      physics: const AlwaysScrollableScrollPhysics(),
       itemCount: category.products.length,
       itemBuilder: (context, index) {
         final product = category.products[index];

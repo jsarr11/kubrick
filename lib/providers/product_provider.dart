@@ -29,6 +29,14 @@ class CategoriesProvider extends ChangeNotifier {
         _categories = categoriesJson
             .map((categoryJson) => Categories.fromJson(categoryJson))
             .toList();
+
+        // **Sort categories by display_order**
+        _categories.sort((a, b) => a.displayOrder.compareTo(b.displayOrder));
+
+        // **Sort products by id within each category**
+        for (var category in _categories) {
+          category.products.sort((a, b) => a.id.compareTo(b.id));
+        }
       } else {
         _errorMessage = 'Failed to load data: ${response.statusCode}';
       }
