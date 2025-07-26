@@ -1,0 +1,1336 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name-en": "Coffee",
+            "name-el": "Καφές",
+            "display_order": 1,
+            "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+            "products": [
+                {
+                    "id": 101,
+                    "name-en": "Espresso",
+                    "name-el": "Εσπρέσο",
+                    "isActive": true,
+                    "price": 2.00,
+                    "description-en": "Strong and bold single shot.",
+                    "description-el": "Δυνατό και έντονο μονό σφηνάκι.",
+                    "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 102,
+                    "name-en": "Cappuccino",
+                    "name-el": "Καπουτσίνο",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Espresso with steamed milk and foam.",
+                    "description-el": "Εσπρέσο με ατμοποιημένο γάλα και αφρό.",
+                    "image": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 103,
+                    "name-en": "Latte",
+                    "name-el": "Λάτε",
+                    "isActive": true,
+                    "price": 4.00,
+                    "description-en": "Espresso with lots of steamed milk.",
+                    "description-el": "Εσπρέσο με πολύ ατμοποιημένο γάλα.",
+                    "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 104,
+                    "name-en": "Americano",
+                    "name-el": "Αμερικάνο",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "Espresso with hot water.",
+                    "description-el": "Εσπρέσο με ζεστό νερό.",
+                    "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 105,
+                    "name-en": "Mocha",
+                    "name-el": "Μόκα",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "Espresso with chocolate and steamed milk.",
+                    "description-el": "Εσπρέσο με σοκολάτα και ατμοποιημένο γάλα.",
+                    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 106,
+                    "name-en": "Macchiato",
+                    "name-el": "Μακιάτο",
+                    "isActive": true,
+                    "price": 3.00,
+                    "description-en": "Espresso with a dash of steamed milk.",
+                    "description-el": "Εσπρέσο με μια πινελιά ατμοποιημένου γάλακτος.",
+                    "image": "https://images.pexels.com/photos/4779230/pexels-photo-4779230.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 107,
+                    "name-en": "Flat White",
+                    "name-el": "Φλατ Γουάιτ",
+                    "isActive": true,
+                    "price": 4.00,
+                    "description-en": "Double espresso with microfoam.",
+                    "description-el": "Διπλό εσπρέσο με μικροαφρό.",
+                    "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 108,
+                    "name-en": "Cold Brew",
+                    "name-el": "Κρύος Καφές",
+                    "isActive": true,
+                    "price": 3.75,
+                    "description-en": "Slow-steeped cold coffee.",
+                    "description-el": "Καφές που εμφυτεύεται αργά σε κρύο νερό.",
+                    "image": "https://images.pexels.com/photos/302094/pexels-photo-302094.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 109,
+                    "name-en": "Iced Coffee",
+                    "name-el": "Παγωμένος Καφές",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Chilled coffee served over ice.",
+                    "description-el": "Κρύος καφές σερβιρισμένος με πάγο.",
+                    "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 110,
+                    "name-en": "Affogato",
+                    "name-el": "Αφφόγκάτο",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "Espresso poured over vanilla ice cream.",
+                    "description-el": "Εσπρέσο που χύνεται πάνω σε παγωτό βανίλιας.",
+                    "image": "https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 111,
+                    "name-en": "Turkish Coffee",
+                    "name-el": "Τούρκικος Καφές",
+                    "isActive": true,
+                    "price": 3.25,
+                    "description-en": "Traditional unfiltered coffee.",
+                    "description-el": "Παραδοσιακός αφύτρωτος καφές.",
+                    "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 112,
+                    "name-en": "Irish Coffee",
+                    "name-el": "Ιρλανδικός Καφές",
+                    "isActive": true,
+                    "price": 6.00,
+                    "description-en": "Coffee with Irish whiskey and cream.",
+                    "description-el": "Καφές με ιρλανδική ουίσκι και κρέμα.",
+                    "image": "https://images.pexels.com/photos/1561158/pexels-photo-1561158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 113,
+                    "name-en": "Vietnamese Iced Coffee",
+                    "name-el": "Βιετναμέζικος Παγωμένος Καφές",
+                    "isActive": true,
+                    "price": 4.25,
+                    "description-en": "Strong coffee with sweetened condensed milk.",
+                    "description-el": "Δυνατός καφές με γλυκασμένο συμπυκνωμένο γάλα.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 114,
+                    "name-en": "Cortado",
+                    "name-el": "Κορτάντο",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Espresso cut with warm milk.",
+                    "description-el": "Εσπρέσο με ζεστό γάλα.",
+                    "image": "https://images.pexels.com/photos/5857501/pexels-photo-5857501.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 115,
+                    "name-en": "Red Eye",
+                    "name-el": "Κόκκινο Μάτι",
+                    "isActive": true,
+                    "price": 3.00,
+                    "description-en": "Drip coffee with a shot of espresso.",
+                    "description-el": "Σταγονόμετρος καφές με μια δόση εσπρέσο.",
+                    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name-en": "Tea",
+            "name-el": "Τσάι",
+            "display_order": 2,
+            "image": "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "products": [
+                {
+                    "id": 201,
+                    "name-en": "English Breakfast",
+                    "name-el": "Αγγλικό Πρωινό",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "Classic black tea blend.",
+                    "description-el": "Κλασικό μείγμα μαύρου τσαγιού.",
+                    "image": "https://images.unsplash.com/photo-1530089711124-9ca31fb7f1f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 202,
+                    "name-en": "Earl Grey",
+                    "name-el": "Earl Grey",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "Black tea with bergamot.",
+                    "description-el": "Μαύρο τσάι με μπεργκαμότ.",
+                    "image": "https://images.pexels.com/photos/5947032/pexels-photo-5947032.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 203,
+                    "name-en": "Chamomile",
+                    "name-el": "Χαμομήλι",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "Herbal tea for relaxation.",
+                    "description-el": "Βοτανικό τσάι για χαλάρωση.",
+                    "image": "https://images.unsplash.com/photo-1597318181409-c9139b5a7181?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 204,
+                    "name-en": "Peppermint",
+                    "name-el": "Δυόσμος",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "Refreshing herbal tea.",
+                    "description-el": "Δροσιστικό βοτανικό τσάι.",
+                    "image": "https://images.pexels.com/photos/5946780/pexels-photo-5946780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 205,
+                    "name-en": "Green Tea",
+                    "name-el": "Πράσινο Τσάι",
+                    "isActive": true,
+                    "price": 2.75,
+                    "description-en": "Light and antioxidant-rich.",
+                    "description-el": "Ελαφρύ και πλούσιο σε αντιοξειδωτικά.",
+                    "image": "https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 206,
+                    "name-en": "Jasmine Tea",
+                    "name-el": "Τσάι Γιασεμίου",
+                    "isActive": true,
+                    "price": 3.00,
+                    "description-en": "Green tea scented with jasmine flowers.",
+                    "description-el": "Πράσινο τσάι αρωματισμένο με άνθη γιασεμιού.",
+                    "image": "https://images.pexels.com/photos/4995170/pexels-photo-4995170.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 207,
+                    "name-en": "Matcha Latte",
+                    "name-el": "Matcha Latte",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "Japanese green tea powder with milk.",
+                    "description-el": "Ιαπωνική σκόνη πράσινου τσαγιού με γάλα.",
+                    "image": "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 208,
+                    "name-en": "Chai Latte",
+                    "name-el": "Chai Latte",
+                    "isActive": true,
+                    "price": 4.00,
+                    "description-en": "Spiced tea with steamed milk.",
+                    "description-el": "Τσάι με μπαχαρικά και ατμοποιημένο γάλα.",
+                    "image": "https://images.pexels.com/photos/5946779/pexels-photo-5946779.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 209,
+                    "name-en": "Oolong Tea",
+                    "name-el": "Oolong Tea",
+                    "isActive": true,
+                    "price": 3.25,
+                    "description-en": "Traditional Chinese semi-oxidized tea.",
+                    "description-el": "Παραδοσιακό κινέζικο ημι-οξειδωμένο τσάι.",
+                    "image": "https://images.unsplash.com/photo-1597318181409-c9139b5a7181?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 210,
+                    "name-en": "White Tea",
+                    "name-el": "Λευκό Τσάι",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Delicate and minimally processed.",
+                    "description-el": "Λεπτό και ελάχιστα επεξεργασμένο.",
+                    "image": "https://images.pexels.com/photos/4995171/pexels-photo-4995171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 211,
+                    "name-en": "Hibiscus Tea",
+                    "name-el": "Τσάι Ιβίσκου",
+                    "isActive": true,
+                    "price": 2.75,
+                    "description-en": "Tart and caffeine-free herbal tea.",
+                    "description-el": "Ξινό και χωρίς καφεΐνη βοτανικό τσάι.",
+                    "image": "https://images.unsplash.com/photo-1597318181409-c9139b5a7181?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 212,
+                    "name-en": "Rooibos Tea",
+                    "name-el": "Rooibos Tea",
+                    "isActive": true,
+                    "price": 2.75,
+                    "description-en": "South African red bush tea.",
+                    "description-el": "Νοτιοαφρικανικό τσάι από κόκκινο θάμνο.",
+                    "image": "https://images.pexels.com/photos/4995172/pexels-photo-4995172.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 213,
+                    "name-en": "Yerba Mate",
+                    "name-el": "Yerba Mate",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "South American energizing herbal tea.",
+                    "description-el": "Νοτιοαμερικανικό ενεργοποιητικό βοτανικό τσάι.",
+                    "image": "https://images.unsplash.com/photo-1530089711124-9ca31fb7f1f9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                },
+                {
+                    "id": 214,
+                    "name-en": "Bubble Tea",
+                    "name-el": "Bubble Tea",
+                    "isActive": true,
+                    "price": 5.00,
+                    "description-en": "Tea with milk and chewy tapioca pearls.",
+                    "description-el": "Τσάι με γάλα και μαστιχωτά μαργαριτάρια ταπιόκα.",
+                    "image": "https://images.pexels.com/photos/4110107/pexels-photo-4110107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                },
+                {
+                    "id": 215,
+                    "name-en": "Iced Tea",
+                    "name-el": "Παγωμένο Τσάι",
+                    "isActive": true,
+                    "price": 3.00,
+                    "description-en": "Chilled tea served over ice.",
+                    "description-el": "Κρύο τσάι σερβιρισμένο με πάγο.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name-en": "Cold Drinks",
+            "name-el": "Κρύα Ποτά",
+            "display_order": 3,
+            "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+            "products": [
+                {
+                    "id": 301,
+                    "name-en": "Iced Latte",
+                    "name-el": "Παγωμένο Λάτε",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "Espresso with cold milk over ice.",
+                    "description-el": "Εσπρέσο με κρύο γάλα και πάγο.",
+                    "image": "https://images.unsplash.com/photo-1572442388796-11668a67e53d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 302,
+                    "name-en": "Iced Mocha",
+                    "name-el": "Παγωμένο Μόκα",
+                    "isActive": true,
+                    "price": 5.00,
+                    "description-en": "Chocolate, espresso and milk over ice.",
+                    "description-el": "Σοκολάτα, εσπρέσο και γάλα με πάγο.",
+                    "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 303,
+                    "name-en": "Frappuccino",
+                    "name-el": "Frappuccino",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Blended iced coffee drink.",
+                    "description-el": "Παγωμένος καφές με μίξερ.",
+                    "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 304,
+                    "name-en": "Milkshake",
+                    "name-el": "Μιλκσέικ",
+                    "isActive": true,
+                    "price": 5.00,
+                    "description-en": "Creamy blended milk drink.",
+                    "description-el": "Κρεμώδες ποτό με γάλα και παγωτό.",
+                    "image": "https://images.pexels.com/photos/103566/pexels-photo-103566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 305,
+                    "name-en": "Smoothie",
+                    "name-el": "Smoothie",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Blended fruit drink.",
+                    "description-el": "Ποτό με φρέσκα φρούτα και παγωτό.",
+                    "image": "https://images.unsplash.com/photo-1505576399279-565b52d4ac71?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 306,
+                    "name-en": "Lemonade",
+                    "name-el": "Λεμονάδα",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Refreshing lemon drink.",
+                    "description-el": "Δροσιστική λεμονάδα.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 307,
+                    "name-en": "Iced Matcha",
+                    "name-el": "Παγωμένο Matcha",
+                    "isActive": true,
+                    "price": 4.75,
+                    "description-en": "Chilled matcha green tea.",
+                    "description-el": "Κρύο πράσινο τσάι matcha.",
+                    "image": "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 308,
+                    "name-en": "Iced Chai",
+                    "name-el": "Παγωμένο Chai",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "Spiced tea latte served cold.",
+                    "description-el": "Κρύο τσάι latte με μπαχαρικά.",
+                    "image": "https://images.pexels.com/photos/5946779/pexels-photo-5946779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 309,
+                    "name-en": "Sparkling Water",
+                    "name-el": "Αεριούχο Νερό",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "Carbonated mineral water.",
+                    "description-el": "Αναψυκτικό με ανθρακικό νερό.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 310,
+                    "name-en": "Soda",
+                    "name-el": "Σόδα",
+                    "isActive": true,
+                    "price": 2.75,
+                    "description-en": "Various carbonated soft drinks.",
+                    "description-el": "Διάφορα αναψυκτικά με ανθρακικό.",
+                    "image": "https://images.pexels.com/photos/50593/coca-cola-cold-drink-soft-drink-coke-50593.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 311,
+                    "name-en": "Iced Tea Lemonade",
+                    "name-el": "Παγωμένο Τσάι με Λεμονάδα",
+                    "isActive": true,
+                    "price": 4.00,
+                    "description-en": "Half iced tea, half lemonade.",
+                    "description-el": "Μίξη παγωμένου τσαγιού και λεμονάδας.",
+                    "image": "https://images.unsplash.com/photo-1445116572660-236099ec97a0?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 312,
+                    "name-en": "Cold Brew Tonic",
+                    "name-el": "Cold Brew Tonic",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "Cold brew coffee with tonic water.",
+                    "description-el": "Κρύος καφές με τόνικ.",
+                    "image": "https://images.pexels.com/photos/302094/pexels-photo-302094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 313,
+                    "name-en": "Italian Soda",
+                    "name-el": "Ιταλική Σόδα",
+                    "isActive": true,
+                    "price": 3.75,
+                    "description-en": "Sparkling water with flavored syrup.",
+                    "description-el": "Αεριούχο νερό με γλυκάνισο.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 314,
+                    "name-en": "Juice",
+                    "name-el": "Χυμός",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Freshly squeezed fruit juice.",
+                    "description-el": "Φυσικός χυμός φρούτων.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 315,
+                    "name-en": "Energy Drink",
+                    "name-el": "Energy Drink",
+                    "isActive": true,
+                    "price": 4.00,
+                    "description-en": "Carbonated energy beverage.",
+                    "description-el": "Αναψυκτικό με ενεργειακή δράση.",
+                    "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name-en": "Bakery",
+            "name-el": "Φούρνος",
+            "display_order": 4,
+            "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "products": [
+                {
+                    "id": 401,
+                    "name-en": "Croissant",
+                    "name-el": "Κρουασάν",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "Classic French pastry.",
+                    "description-el": "Κλασικό γαλλικό γλυκό.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 402,
+                    "name-en": "Chocolate Croissant",
+                    "name-el": "Κρουασάν με Σοκολάτα",
+                    "isActive": true,
+                    "price": 3.00,
+                    "description-en": "Buttery croissant with chocolate filling.",
+                    "description-el": "Βουτυρένιο κρουασάν με γέμιση σοκολάτας.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 403,
+                    "name-en": "Almond Croissant",
+                    "name-el": "Κρουασάν με Αμύγδαλα",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Croissant with almond cream filling.",
+                    "description-el": "Κρουασάν με κρέμα αμυγδάλου.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 404,
+                    "name-en": "Danish",
+                    "name-el": "Ντένις",
+                    "isActive": true,
+                    "price": 3.25,
+                    "description-en": "Flaky pastry with fruit or cheese filling.",
+                    "description-el": "Φύλλο με γέμιση φρούτων ή τυριού.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 405,
+                    "name-en": "Muffin",
+                    "name-el": "Μάφιν",
+                    "isActive": true,
+                    "price": 2.75,
+                    "description-en": "Freshly baked muffin.",
+                    "description-el": "Φρεσκοψημένο μάφιν.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 406,
+                    "name-en": "Scone",
+                    "name-el": "Σκον",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "British-style baked good.",
+                    "description-el": "Αγγλικής κουζίνας γλυκό.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 407,
+                    "name-en": "Bagel",
+                    "name-el": "Μπέιγκελ",
+                    "isActive": true,
+                    "price": 2.25,
+                    "description-en": "New York-style bagel.",
+                    "description-el": "Μπέιγκελ Νέου Υόρκης.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 408,
+                    "name-en": "Cinnamon Roll",
+                    "name-el": "Ρολό με Κανέλα",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Sweet rolled pastry with cinnamon.",
+                    "description-el": "Γλυκό ρολό με κανέλα.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 409,
+                    "name-en": "Donut",
+                    "name-el": "Ντόνατ",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "Classic ring donut.",
+                    "description-el": "Κλασικό ντόνατ δακτυλίδι.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 410,
+                    "name-en": "Brownie",
+                    "name-el": "Μπράουνι",
+                    "isActive": true,
+                    "price": 3.00,
+                    "description-en": "Rich chocolate square.",
+                    "description-el": "Πλούσια σοκολατένια γλύκα.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 411,
+                    "name-en": "Cookie",
+                    "name-el": "Μπισκότο",
+                    "isActive": true,
+                    "price": 1.75,
+                    "description-en": "Freshly baked cookie.",
+                    "description-el": "Φρεσκοψημένο μπισκότο.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 412,
+                    "name-en": "Banana Bread",
+                    "name-el": "Ψωμί Μπανάνας",
+                    "isActive": true,
+                    "price": 3.25,
+                    "description-en": "Moist banana loaf.",
+                    "description-el": "Υγρή πίτα με μπανάνες.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 413,
+                    "name-en": "Pound Cake",
+                    "name-el": "Πάουντ Κέικ",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Dense buttery cake.",
+                    "description-el": "Πλούσιο βουτυρένιο κέικ.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 414,
+                    "name-en": "Tart",
+                    "name-el": "Τάρτα",
+                    "isActive": true,
+                    "price": 4.00,
+                    "description-en": "French-style fruit tart.",
+                    "description-el": "Γαλλικού στυλ τάρτα με φρούτα.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 415,
+                    "name-en": "Biscotti",
+                    "name-el": "Μπισκότα",
+                    "isActive": true,
+                    "price": 2.00,
+                    "description-en": "Italian almond biscuit.",
+                    "description-el": "Ιταλικό αμυγδαλένιο μπισκότο.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name-en": "Breakfast",
+            "name-el": "Πρωινό",
+            "display_order": 5,
+            "image": "https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+            "products": [
+                {
+                    "id": 501,
+                    "name-en": "Avocado Toast",
+                    "name-el": "Τοστ με Αβοκάντο",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Sourdough with smashed avocado.",
+                    "description-el": "Ξινόψωμο με πουρέ αβοκάντο.",
+                    "image": "https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 502,
+                    "name-en": "Breakfast Sandwich",
+                    "name-el": "Σάντουιτς Πρωινού",
+                    "isActive": true,
+                    "price": 6.50,
+                    "description-en": "Egg, cheese and bacon on a croissant.",
+                    "description-el": "Αυγό, τυρί και μπέικον σε κρουασάν.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 503,
+                    "name-en": "Oatmeal",
+                    "name-el": "Βρώμη",
+                    "isActive": true,
+                    "price": 5.00,
+                    "description-en": "Steel-cut oats with toppings.",
+                    "description-el": "Βρώμη με επιλογή γαρνιτούρας.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 504,
+                    "name-en": "Yogurt Parfait",
+                    "name-el": "Παρφέ Γιαουρτιού",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Greek yogurt with granola and fruit.",
+                    "description-el": "Ελληνικό γιαούρτι με γκρανόλα και φρούτα.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 505,
+                    "name-en": "Breakfast Burrito",
+                    "name-el": "Μπουρίτο Πρωινού",
+                    "isActive": true,
+                    "price": 8.00,
+                    "description-en": "Scrambled eggs, beans and cheese in tortilla.",
+                    "description-el": "Ομελέτα, φασόλια και τυρί σε τορτίγια.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 506,
+                    "name-en": "Pancakes",
+                    "name-el": "Πανκέικς",
+                    "isActive": true,
+                    "price": 7.00,
+                    "description-en": "Stack of fluffy pancakes.",
+                    "description-el": "Στοίβα από αφράτα πανκέικς.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 507,
+                    "name-en": "Waffles",
+                    "name-el": "Βάφλες",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Crispy Belgian waffle.",
+                    "description-el": "Τραγανές βελγικές βάφλες.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 508,
+                    "name-en": "French Toast",
+                    "name-el": "Γαλλικό Τοστ",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Brioche dipped in egg batter.",
+                    "description-el": "Μπριόζα βουτηγμένη σε κουρκούτι.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 509,
+                    "name-en": "Eggs Benedict",
+                    "name-el": "Eggs Benedict",
+                    "isActive": true,
+                    "price": 9.50,
+                    "description-en": "Poached eggs on English muffin with hollandaise.",
+                    "description-el": "Αβγά ποσέ σε αγγλικό muffin με σάλτσα hollandaise.",
+                    "image": "https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 510,
+                    "name-en": "Breakfast Bowl",
+                    "name-el": "Μπολ Πρωινού",
+                    "isActive": true,
+                    "price": 8.50,
+                    "description-en": "Quinoa, greens, eggs and avocado.",
+                    "description-el": "Κινόα, χόρτα, αυγά και αβοκάντο.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 511,
+                    "name-en": "Bagel Sandwich",
+                    "name-el": "Σάντουιτς Μπέιγκελ",
+                    "isActive": true,
+                    "price": 6.00,
+                    "description-en": "Cream cheese, tomato and cucumber on bagel.",
+                    "description-el": "Κριμ τυρί, ντομάτα και αγγούρι σε μπέιγκελ.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 512,
+                    "name-en": "Shakshuka",
+                    "name-el": "Shakshuka",
+                    "isActive": true,
+                    "price": 9.00,
+                    "description-en": "Eggs poached in tomato sauce.",
+                    "description-el": "Αβγά ποσέ σε σάλτσα ντομάτας.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 513,
+                    "name-en": "Chia Pudding",
+                    "name-el": "Πουτινγκ Chia",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Chia seeds soaked in almond milk.",
+                    "description-el": "Σπόροι chia σε γάλα αμυγδάλου.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 514,
+                    "name-en": "Breakfast Quesadilla",
+                    "name-el": "Κεσαδίγια Πρωινού",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Scrambled eggs and cheese in tortilla.",
+                    "description-el": "Ομελέτα και τυρί σε τορτίγια.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 515,
+                    "name-en": "Granola",
+                    "name-el": "Γκρανόλα",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "House-made granola with milk.",
+                    "description-el": "Σπιτική γκρανόλα με γάλα.",
+                    "image": "https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name-en": "Lunch",
+            "name-el": "Γεύμα",
+            "display_order": 6,
+            "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "products": [
+                {
+                    "id": 601,
+                    "name-en": "Grilled Cheese",
+                    "name-el": "Τηγανητή Τοστ",
+                    "isActive": true,
+                    "price": 6.50,
+                    "description-en": "Classic melted cheese sandwich.",
+                    "description-el": "Κλασικό σάντουιτς με λιωμένο τυρί.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 602,
+                    "name-en": "BLT Sandwich",
+                    "name-el": "BLT Σάντουιτς",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Bacon, lettuce and tomato on toast.",
+                    "description-el": "Μπέικον, μαρούλι και ντομάτα σε φρυγανισμένο ψωμί.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 603,
+                    "name-en": "Chicken Panini",
+                    "name-el": "Πανίνι Κοτόπουλο",
+                    "isActive": true,
+                    "price": 8.50,
+                    "description-en": "Pressed chicken and pesto sandwich.",
+                    "description-el": "Σάντουιτς με κοτόπουλο και πέστο σε πανίνι.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 604,
+                    "name-en": "Quiche",
+                    "name-el": "Κις",
+                    "isActive": true,
+                    "price": 7.00,
+                    "description-en": "Savory egg and cheese pie.",
+                    "description-el": "Αλμυρή πίτα με αυγά και τυρί.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 605,
+                    "name-en": "Caesar Salad",
+                    "name-el": "Σαλάτα Καίσαρα",
+                    "isActive": true,
+                    "price": 8.50,
+                    "description-en": "Romaine, croutons and parmesan.",
+                    "description-el": "Μαρούλι, κρουτόν και παρμεζάνα.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 606,
+                    "name-en": "Cobb Salad",
+                    "name-el": "Σαλάτα Cobb",
+                    "isActive": true,
+                    "price": 9.50,
+                    "description-en": "Greens with chicken, bacon and eggs.",
+                    "description-el": "Χόρτα με κοτόπουλο, μπέικον και αυγά.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 607,
+                    "name-en": "Veggie Wrap",
+                    "name-el": "Βιγκαν Ρολό",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Grilled vegetables in tortilla.",
+                    "description-el": "Ψητά λαχανικά σε τορτίγια.",
+                    "image": "https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 608,
+                    "name-en": "Tuna Melt",
+                    "name-el": "Τόνος Λιωμένος",
+                    "isActive": true,
+                    "price": 8.00,
+                    "description-en": "Tuna salad with melted cheese.",
+                    "description-el": "Σαλάτα τόνου με λιωμένο τυρί.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 609,
+                    "name-en": "Tomato Soup",
+                    "name-el": "Κρεμμύδι Σούπα",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Creamy tomato soup.",
+                    "description-el": "Κρεμώδης σούπα ντομάτας.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 610,
+                    "name-en": "Chicken Salad",
+                    "name-el": "Σαλάτα Κοτόπουλο",
+                    "isActive": true,
+                    "price": 8.50,
+                    "description-en": "Chicken with greens and dressing.",
+                    "description-el": "Κοτόπουλο με χόρτα και σάλτσα.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 611,
+                    "name-en": "Turkey Club",
+                    "name-el": "Κλαμπ Γαλοπούλας",
+                    "isActive": true,
+                    "price": 8.50,
+                    "description-en": "Triple-decker turkey sandwich.",
+                    "description-el": "Τριπλό σάντουιτς με γαλοπούλα.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 612,
+                    "name-en": "Greek Salad",
+                    "name-el": "Χωριάτικη Σαλάτα",
+                    "isActive": true,
+                    "price": 8.00,
+                    "description-en": "Cucumber, tomato, olives and feta.",
+                    "description-el": "Αγγούρι, ντομάτα, ελιές και φέτα.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 613,
+                    "name-en": "Avocado Salad",
+                    "name-el": "Σαλάτα Αβοκάντο",
+                    "isActive": true,
+                    "price": 8.50,
+                    "description-en": "Mixed greens with avocado and nuts.",
+                    "description-el": "Χόρτα με αβοκάντο και ξηρούς καρπούς.",
+                    "image": "https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 614,
+                    "name-en": "Caprese Sandwich",
+                    "name-el": "Σάντουιτς Καπρέζε",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Mozzarella, tomato and basil on ciabatta.",
+                    "description-el": "Μοτσαρέλα, ντομάτα και βασιλικός σε τσιμπάτα.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 615,
+                    "name-en": "Chicken Wrap",
+                    "name-el": "Ρολό Κοτόπουλο",
+                    "isActive": true,
+                    "price": 8.50,
+                    "description-en": "Grilled chicken in tortilla with veggies.",
+                    "description-el": "Ψητό κοτόπουλο σε τορτίγια με λαχανικά.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name-en": "Desserts",
+            "name-el": "Επιδόρπια",
+            "display_order": 7,
+            "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+            "products": [
+                {
+                    "id": 701,
+                    "name-en": "Cheesecake",
+                    "name-el": "Τσίζκέικ",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Classic New York cheesecake.",
+                    "description-el": "Κλασικό τσίζκέικ Νέας Υόρκης.",
+                    "image": "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 702,
+                    "name-en": "Tiramisu",
+                    "name-el": "Τιραμισού",
+                    "isActive": true,
+                    "price": 6.00,
+                    "description-en": "Italian coffee-flavored dessert.",
+                    "description-el": "Ιταλικό επιδόρπιο με γεύση καφέ.",
+                    "image": "https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 703,
+                    "name-en": "Chocolate Cake",
+                    "name-el": "Σοκολατόπιτα",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Rich chocolate layer cake.",
+                    "description-el": "Πλούσια σοκολατένια τούρτα.",
+                    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 704,
+                    "name-en": "Carrot Cake",
+                    "name-el": "Κέικ Καρότο",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Spiced cake with cream cheese frosting.",
+                    "description-el": "Κέικ με καρότα και κρέμα τυριού.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 705,
+                    "name-en": "Creme Brulee",
+                    "name-el": "Κρεμ Μπριλέ",
+                    "isActive": true,
+                    "price": 6.50,
+                    "description-en": "Vanilla custard with caramelized sugar.",
+                    "description-el": "Κρέμα βανίλιας με καραμελωμένη ζάχαρη.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 706,
+                    "name-en": "Apple Pie",
+                    "name-el": "Μηλόπιτα",
+                    "isActive": true,
+                    "price": 5.00,
+                    "description-en": "Classic American pie.",
+                    "description-el": "Κλασική αμερικανική μηλόπιτα.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 707,
+                    "name-en": "Ice Cream",
+                    "name-el": "Παγωτό",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "Scoop of premium ice cream.",
+                    "description-el": "Μπάλα παγωτού υψηλής ποιότητας.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 708,
+                    "name-en": "Chocolate Mousse",
+                    "name-el": "Σοκολατένια Μους",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Light and airy chocolate dessert.",
+                    "description-el": "Ελαφριά σοκολατένια κρέμα.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 709,
+                    "name-en": "Panna Cotta",
+                    "name-el": "Πάνα Κότα",
+                    "isActive": true,
+                    "price": 6.00,
+                    "description-en": "Italian cooked cream dessert.",
+                    "description-el": "Ιταλικό επιδόρπιο με κρέμα.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 710,
+                    "name-en": "Macarons",
+                    "name-el": "Μακαρόν",
+                    "isActive": true,
+                    "price": 2.50,
+                    "description-en": "French almond meringue cookies.",
+                    "description-el": "Γαλλικά μπισκότα με αμύγδαλο.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 711,
+                    "name-en": "Eclair",
+                    "name-el": "Εκλέρ",
+                    "isActive": true,
+                    "price": 4.50,
+                    "description-en": "Cream-filled choux pastry.",
+                    "description-el": "Γλυκό με κρέμα και σοκολάτα.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 712,
+                    "name-en": "Cannoli",
+                    "name-el": "Καννόλι",
+                    "isActive": true,
+                    "price": 4.00,
+                    "description-en": "Italian pastry with sweet ricotta.",
+                    "description-el": "Ιταλικό γλυκό με γλυκό ρικότα.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 713,
+                    "name-en": "Fruit Tart",
+                    "name-el": "Τάρτα Φρούτων",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Pastry with custard and fresh fruit.",
+                    "description-el": "Τάρτα με κρέμα και φρέσκα φρούτα.",
+                    "image": "https://images.unsplash.com/photo-1551029506-0807df4e2031?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 714,
+                    "name-en": "Lemon Bar",
+                    "name-el": "Λεμονένιο Γλυκό",
+                    "isActive": true,
+                    "price": 3.50,
+                    "description-en": "Tangy lemon dessert square.",
+                    "description-el": "Ξινόγλυκο επιδόρπιο με λεμόνι.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 715,
+                    "name-en": "Chocolate Fondant",
+                    "name-el": "Σοκολατένιο Φονντάν",
+                    "isActive": true,
+                    "price": 6.50,
+                    "description-en": "Warm chocolate cake with liquid center.",
+                    "description-el": "Ζεστή σοκολατένια τούρτα με υγρό κέντρο.",
+                    "image": "https://images.unsplash.com/photo-1555243896-c709bfa0b564?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name-en": "Combos",
+            "name-el": "Συνδυασμοί",
+            "display_order": 8,
+            "image": "https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "products": [
+                {
+                    "id": 801,
+                    "components": [
+                        101,
+                        401
+                    ],
+                    "name-en": "Espresso + Croissant",
+                    "name-el": "Εσπρέσο + Κρουασάν",
+                    "isActive": true,
+                    "price": 5.20,
+                    "description-en": "Espresso plus buttery croissant.",
+                    "description-el": "Εσπρέσο με βουτυρένιο κρουασάν.",
+                    "image": "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 802,
+                    "components": [
+                        103,
+                        405
+                    ],
+                    "name-en": "Latte + Muffin",
+                    "name-el": "Λάτε + Μάφιν",
+                    "isActive": true,
+                    "price": 7.00,
+                    "description-en": "Latte with a freshly baked muffin.",
+                    "description-el": "Λάτε με φρεσκοψημένο μάφιν.",
+                    "image": "https://images.pexels.com/photos/5946778/pexels-photo-5946778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 803,
+                    "components": [
+                        102,
+                        402
+                    ],
+                    "name-en": "Cappuccino + Chocolate Croissant",
+                    "name-el": "Καπουτσίνο + Κρουασάν Σοκολάτας",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Cappuccino with chocolate croissant.",
+                    "description-el": "Καπουτσίνο με κρουασάν σοκολάτας.",
+                    "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 804,
+                    "components": [
+                        104,
+                        406
+                    ],
+                    "name-en": "Americano + Scone",
+                    "name-el": "Αμερικάνο + Σκον",
+                    "isActive": true,
+                    "price": 5.50,
+                    "description-en": "Americano with British-style scone.",
+                    "description-el": "Αμερικάνο με σκον αγγλικού στυλ.",
+                    "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 805,
+                    "components": [
+                        107,
+                        410
+                    ],
+                    "name-en": "Flat White + Brownie",
+                    "name-el": "Φλατ Γουάιτ + Μπράουνι",
+                    "isActive": true,
+                    "price": 7.50,
+                    "description-en": "Flat white with rich chocolate brownie.",
+                    "description-el": "Φλατ γουάιτ με πλούσιο μπράουνι.",
+                    "image": "https://images.unsplash.com/photo-1534778101976-62847782c213?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                },
+                {
+                    "id": 806,
+                    "components": [
+                        108,
+                        411
+                    ],
+                    "name-en": "Cold Brew + Cookie",
+                    "name-el": "Κρύος Καφές + Μπισκότο",
+                    "isActive": true,
+                    "price": 5.25,
+                    "description-en": "Cold brew coffee with fresh cookie.",
+                    "description-el": "Κρύος καφές με φρεσκοψημένο μπισκότο.",
+                    "image": "https://images.pexels.com/photos/302094/pexels-photo-302094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 807,
+                    "components": [
+                        201,
+                        401
+                    ],
+                    "name-en": "English Breakfast Tea + Croissant",
+                    "name-el": "Αγγλικό Τσάι + Κρουασάν",
+                    "isActive": true,
+                    "price": 5.00,
+                    "description-en": "Classic tea with French pastry.",
+                    "description-el": "Κλασικό τσάι με γαλλικό γλυκό.",
+                    "image": "https://images.pexels.com/photos/302896/pexels-photo-302896.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 808,
+                    "components": [
+                        207,
+                        412
+                    ],
+                    "name-en": "Matcha Latte + Banana Bread",
+                    "name-el": "Matcha Latte + Ψωμί Μπανάνας",
+                    "isActive": true,
+                    "price": 8.00,
+                    "description-en": "Matcha with moist banana loaf.",
+                    "description-el": "Matcha με υγρό ψωμί μπανάνας.",
+                    "image": "https://images.pexels.com/photos/5946779/pexels-photo-5946779.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 809,
+                    "components": [
+                        301,
+                        501
+                    ],
+                    "name-en": "Iced Latte + Avocado Toast",
+                    "name-el": "Παγωμένο Λάτε + Τοστ Αβοκάντο",
+                    "isActive": true,
+                    "price": 11.50,
+                    "description-en": "Iced latte with avocado toast.",
+                    "description-el": "Παγωμένο λάτε με τοστ αβοκάντο.",
+                    "image": "https://images.pexels.com/photos/1561158/pexels-photo-1561158.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 810,
+                    "components": [
+                        302,
+                        502
+                    ],
+                    "name-en": "Iced Mocha + Breakfast Sandwich",
+                    "name-el": "Παγωμένο Μόκα + Σάντουιτς Πρωινού",
+                    "isActive": true,
+                    "price": 12.00,
+                    "description-en": "Iced mocha with breakfast sandwich.",
+                    "description-el": "Παγωμένο μόκα με σάντουιτς πρωινού.",
+                    "image": "https://images.pexels.com/photos/4779230/pexels-photo-4779230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 811,
+                    "components": [
+                        303,
+                        503
+                    ],
+                    "name-en": "Frappuccino + Oatmeal",
+                    "name-el": "Frappuccino + Βρώμη",
+                    "isActive": true,
+                    "price": 10.50,
+                    "description-en": "Blended drink with steel-cut oats.",
+                    "description-el": "Ποτό με μίξερ και βρώμη.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 812,
+                    "components": [
+                        601,
+                        609
+                    ],
+                    "name-en": "Grilled Cheese + Tomato Soup",
+                    "name-el": "Τηγανητή Τοστ + Σούπα Ντομάτας",
+                    "isActive": true,
+                    "price": 11.00,
+                    "description-en": "Classic comfort food combo.",
+                    "description-el": "Κλασικός συνδυασμός άνεσης.",
+                    "image": "https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 813,
+                    "components": [
+                        605,
+                        109
+                    ],
+                    "name-en": "Caesar Salad + Iced Coffee",
+                    "name-el": "Σαλάτα Καίσαρα + Παγωμένος Καφές",
+                    "isActive": true,
+                    "price": 11.50,
+                    "description-en": "Salad with chilled coffee.",
+                    "description-el": "Σαλάτα με παγωμένο καφέ.",
+                    "image": "https://images.pexels.com/photos/6605213/pexels-photo-6605213.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 814,
+                    "components": [
+                        701,
+                        103
+                    ],
+                    "name-en": "Cheesecake + Latte",
+                    "name-el": "Τσίζκέικ + Λάτε",
+                    "isActive": true,
+                    "price": 9.50,
+                    "description-en": "Dessert with coffee.",
+                    "description-el": "Επιδόρπιο με καφέ.",
+                    "image": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                },
+                {
+                    "id": 815,
+                    "components": [
+                        702,
+                        102
+                    ],
+                    "name-en": "Tiramisu + Cappuccino",
+                    "name-el": "Τιραμισού + Καπουτσίνο",
+                    "isActive": true,
+                    "price": 9.50,
+                    "description-en": "Italian dessert with Italian coffee.",
+                    "description-el": "Ιταλικό επιδόρπιο με ιταλικό καφέ.",
+                    "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80"
+                }
+            ]
+        }
+    ]
+}
