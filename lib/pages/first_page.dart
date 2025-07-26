@@ -5,6 +5,7 @@ import '../providers/language_provider.dart';
 import '../providers/product_provider.dart';
 import './menu_page.dart';
 import './widgets/customAppBar.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class FirstPage extends StatelessWidget {
   const FirstPage({super.key});
@@ -19,6 +20,14 @@ class FirstPage extends StatelessWidget {
     if (width < 370) return 50; // very small screens
     if (width < 550) return 70; // medium screens
     return 100; // default
+  }
+
+  Future<void> openSocialLink(Uri appUri, Uri webUri) async {
+    if (await canLaunchUrl(appUri)) {
+      await launchUrl(appUri, mode: LaunchMode.externalApplication);
+    } else {
+      await launchUrl(webUri, mode: LaunchMode.externalApplication);
+    }
   }
 
   @override
@@ -94,25 +103,57 @@ class FirstPage extends StatelessWidget {
                         tooltip: 'Facebook',
                         icon: const FaIcon(FontAwesomeIcons.facebook),
                         color: Colors.white,
-                        onPressed: () {},
+                        onPressed: () {
+                          openSocialLink(
+                            Uri.parse(
+                              'fb://profile/your_page_id',
+                            ), // App deep link
+                            Uri.parse(
+                              'https://www.facebook.com/your_page_name',
+                            ), // Web fallback
+                          );
+                        },
                       ),
                       IconButton(
                         tooltip: 'Instagram',
                         icon: const FaIcon(FontAwesomeIcons.instagram),
                         color: Colors.white,
-                        onPressed: () {},
+                        onPressed: () {
+                          openSocialLink(
+                            Uri.parse(
+                              'instagram://user?username=your_username',
+                            ),
+                            Uri.parse(
+                              'https://www.instagram.com/your_username/',
+                            ),
+                          );
+                        },
                       ),
                       IconButton(
                         tooltip: 'TikTok',
                         icon: const FaIcon(FontAwesomeIcons.tiktok),
                         color: Colors.white,
-                        onPressed: () {},
+                        onPressed: () {
+                          openSocialLink(
+                            Uri.parse('snssdk1128://user/profile/your_user_id'),
+                            Uri.parse('https://www.tiktok.com/@your_username'),
+                          );
+                        },
                       ),
                       IconButton(
                         tooltip: 'YouTube',
                         icon: const FaIcon(FontAwesomeIcons.youtube),
                         color: Colors.white,
-                        onPressed: () {},
+                        onPressed: () {
+                          openSocialLink(
+                            Uri.parse(
+                              'youtube://www.youtube.com/channel/your_channel_id',
+                            ),
+                            Uri.parse(
+                              'https://www.youtube.com/channel/your_channel_id',
+                            ),
+                          );
+                        },
                       ),
                     ],
                   ),

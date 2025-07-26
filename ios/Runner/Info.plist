@@ -45,5 +45,14 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- Add LSApplicationQueriesSchemes for deep linking -->
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fb</string>
+		<string>instagram</string>
+		<string>snssdk1128</string>
+		<string>youtube</string>
+	</array>
 </dict>
 </plist>
