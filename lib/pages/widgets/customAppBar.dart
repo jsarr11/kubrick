@@ -9,7 +9,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   const CustomAppBar({
     super.key,
     this.height = 100,
-    this.showBackButton = false, // Decide if back button should appear
+    this.showBackButton = false,
   });
 
   @override
@@ -19,6 +19,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     final langProvider = context.watch<LanguageProvider>();
     final lang = langProvider.lang;
+    final screenWidth = MediaQuery.of(context).size.width;
 
     return AppBar(
       toolbarHeight: height,
@@ -46,14 +47,16 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
         ],
       ),
       centerTitle: true,
-      title: ClipRRect(
-        borderRadius: BorderRadius.circular(5),
-        child: Image.asset(
-          'assets/sample_logo.png',
-          height: height * 0.7,
-          fit: BoxFit.cover,
-        ),
-      ),
+      title: screenWidth > 550
+          ? ClipRRect(
+              borderRadius: BorderRadius.circular(5),
+              child: Image.asset(
+                'assets/sample_logo.png',
+                height: height * 0.7,
+                fit: BoxFit.cover,
+              ),
+            )
+          : null,
       actions: [
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8.0),
@@ -61,8 +64,8 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
             child: DropdownButton<String>(
               value: lang,
               icon: const Icon(Icons.language, color: Colors.white),
-              dropdownColor: Colors.black, // <-- black dropdown background
-              style: const TextStyle(color: Colors.white), // text color white
+              dropdownColor: Colors.black,
+              style: const TextStyle(color: Colors.white),
               items: const [
                 DropdownMenuItem(
                   value: 'en',

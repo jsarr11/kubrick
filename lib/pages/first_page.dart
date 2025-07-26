@@ -15,14 +15,21 @@ class FirstPage extends StatelessWidget {
     'el': {'menu': 'Μενού'},
   };
 
+  double _getLogoHeight(double width) {
+    if (width < 370) return 50; // very small screens
+    if (width < 550) return 70; // medium screens
+    return 100; // default
+  }
+
   @override
   Widget build(BuildContext context) {
     final langProvider = context.watch<LanguageProvider>();
     final lang = langProvider.lang;
     final t = _texts[lang]!;
+    final screenWidth = MediaQuery.of(context).size.width;
 
     return Scaffold(
-      appBar: CustomAppBar(),
+      appBar: const CustomAppBar(),
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
@@ -41,16 +48,20 @@ class FirstPage extends StatelessWidget {
               child: Column(
                 children: [
                   const Spacer(),
+
+                  // Responsive Logo
                   ClipRRect(
                     borderRadius: BorderRadius.circular(5),
                     child: Image.asset(
                       'assets/sample_logo.png',
-                      height: 100,
+                      height: _getLogoHeight(screenWidth),
                       fit: BoxFit.cover,
                     ),
                   ),
 
                   const SizedBox(height: 32),
+
+                  // Menu Button
                   ElevatedButton.icon(
                     icon: const Icon(Icons.menu_book, color: Colors.black),
                     label: Text(
@@ -58,11 +69,8 @@ class FirstPage extends StatelessWidget {
                       style: const TextStyle(color: Colors.black),
                     ),
                     style: ElevatedButton.styleFrom(
-                      minimumSize: const Size(
-                        200,
-                        60,
-                      ), // width: 200, height: 60
-                      textStyle: const TextStyle(fontSize: 20), // bigger font
+                      minimumSize: const Size(200, 60),
+                      textStyle: const TextStyle(fontSize: 20),
                       padding: const EdgeInsets.symmetric(
                         horizontal: 24,
                         vertical: 12,
@@ -75,7 +83,10 @@ class FirstPage extends StatelessWidget {
                       Navigator.pushNamed(context, MenuPage.routeName);
                     },
                   ),
+
                   const Spacer(),
+
+                  // Social Buttons
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
