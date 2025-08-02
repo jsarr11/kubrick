@@ -17,9 +17,9 @@ class FirstPage extends StatelessWidget {
   };
 
   double _getLogoHeight(double width) {
-    if (width < 370) return 50; // very small screens
-    if (width < 550) return 70; // medium screens
-    return 100; // default
+    if (width < 370) return 80; // very small screens
+    if (width < 550) return 100; // medium screens
+    return 140; // default
   }
 
   Future<void> openSocialLink(Uri appUri, Uri webUri) async {
@@ -40,16 +40,7 @@ class FirstPage extends StatelessWidget {
     return Scaffold(
       appBar: const CustomAppBar(),
       body: Container(
-        decoration: const BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Color.fromARGB(255, 227, 208, 41),
-              Color.fromARGB(255, 203, 98, 17),
-            ],
-          ),
-        ),
+        decoration: const BoxDecoration(color: Color.fromRGBO(231, 121, 3, 1)),
         child: SafeArea(
           child: Center(
             child: Padding(

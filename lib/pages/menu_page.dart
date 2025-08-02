@@ -61,7 +61,7 @@ class _MenuPageState extends State<MenuPage> {
           ? Center(child: Text(provider.errorMessage!))
           : Column(
               children: [
-                Container(height: 3, color: Colors.orange),
+                Container(height: 3, color: Color.fromRGBO(231, 121, 3, 1)),
                 Container(
                   color: Colors.black,
                   height: 140,
@@ -97,7 +97,7 @@ class _MenuPageState extends State<MenuPage> {
                                 decoration: BoxDecoration(
                                   border: Border.all(
                                     color: isSelected
-                                        ? Colors.orange
+                                        ? Color.fromRGBO(231, 121, 3, 1)
                                         : Colors.transparent,
                                     width: 2,
                                   ),
@@ -147,14 +147,7 @@ class _MenuPageState extends State<MenuPage> {
                 Expanded(
                   child: Container(
                     decoration: const BoxDecoration(
-                      gradient: LinearGradient(
-                        begin: Alignment.topCenter,
-                        end: Alignment.bottomCenter,
-                        colors: [
-                          Color.fromARGB(255, 227, 208, 41),
-                          Color.fromARGB(255, 203, 98, 17),
-                        ],
-                      ),
+                      color: Color.fromRGBO(231, 121, 3, 1),
                     ),
                     child: _buildProductsList(
                       provider.categories[_selectedCategoryIndex],
